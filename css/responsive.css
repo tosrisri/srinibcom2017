@@ -1,0 +1,161 @@
+/* // Mobile Code // */
+@media (max-width: 580px) {
+#header .header-content {
+  text-align: center;
+}
+#header h1 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+
+#header p {
+  padding:0px;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+ }
+ section {
+   margin: 0;
+   padding: 3em 0.5em;
+ }
+ section#header {
+   padding-top: 4em;
+ }
+section p {
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+}
+.h3, h3 {
+  font-size: 1.5rem;
+}
+.section-title {
+    margin-bottom: 0px;
+}
+.iconBackground, .separline:before {
+  display: none;
+}
+section#timeline .reverse {
+    flex-direction: row;
+}
+
+.timeline-element {
+    display: flex;
+}
+.align-right {
+    text-align: left;
+}
+
+
+section#timeline h3, section#timeline p, section#timeline h4, section#timeline .timeline-text-content, 
+section#timeline .reverse .time-line-date-content h3,
+section#timeline .reverse .time-line-date-content,
+section#timeline .reverse .timeline-text-content,
+section#timeline .time-line-date-content {
+  margin: 0; 
+  padding:0;
+  float: none;
+  display: block;
+  background: none;
+}
+
+section#timeline p.lead{
+  padding-bottom: 4rem;
+}
+
+
+section#timeline h3, section#timeline h4, section#timeline p, section#timeline .reverse .time-line-date-content h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+section#timeline h3 {
+  font-size: 1.3rem;
+}
+section#timeline h4 {
+  font-size: 1.1rem;
+}
+
+/* About */
+.arrow {
+  display: none;
+}
+.my-pic {
+  max-width: 100%;
+}
+.rounded-circle {
+  border-radius: 3px!important;
+  margin-bottom: 2em;
+  margin: 0 0 1em;
+  border: 1px solid #000;
+  background-color: #000;
+  padding: 0;
+}
+
+/* Boxes */
+.box {
+padding: 20px;
+background-color: rgba(255,255,255,0.1);
+margin-bottom: 1em;
+}
+.box .box-icon {
+  height: 90px;
+  margin-bottom: 20px;
+}
+section#experience h3 {
+  font-size: 1.2rem;
+  width: 100%;
+  float: none;
+  padding: 0;
+  margin: 0;
+  border: 0px solid red;
+  text-align: center;
+}
+
+section#experience h3, section#experience p, section#experience h3:hover, section#experience p:hover, section#experience .timeline-text-content {
+background-color: transparent !important;
+}
+
+section#experience  .timeline-text-content, section#experience  .timeline-date-panel, section#experience .time-line-date-content  {
+  padding: 0;
+  margin: 0;
+  border: 0px solid red;
+  float: none;
+  width: 100%;
+}
+
+.timeline-element {
+  margin: 2em;
+}
+
+
+/* Experience */
+p.blogos {
+  display: none;
+}
+.timeline-element:hover .timeline-text-content, .timeline-element:hover .time-line-date-content h3 {
+  background: none;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/* // Tablet code // */
+@media (min-width: 581px) and (max-width: 768px)  {
+     
+}
+
+/* // Desktop Code // */
+@media (min-width: 769px)  {
+      
+}

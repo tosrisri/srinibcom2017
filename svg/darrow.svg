@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="21px" viewBox="0 0 38 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFF9E5" offset="0%"></stop>
+            <stop stop-color="#FEF5D6" stop-opacity="0.706402214" offset="68.0251987%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.315726902" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="waves" transform="translate(-1973.000000, -326.000000)" fill="url(#linearGradient-1)">
+            <path d="M1999.84,354.082585 C2000.43102,354.633302 2001.35202,354.617053 2001.92324,354.045828 C2002.49447,353.474604 2002.51072,352.553604 2001.96,351.962585 L1985.96,335.962585 L2001.96,320.522585 C2002.51072,319.931565 2002.49447,319.010565 2001.92324,318.439341 C2001.35202,317.868117 2000.43102,317.851867 1999.84,318.402585 L1982,335.962585 L1999.84,354.082585 Z" id="Shape" transform="translate(1992.181292, 336.242585) rotate(-90.000000) translate(-1992.181292, -336.242585) "></path>
+        </g>
+    </g>
+</svg>

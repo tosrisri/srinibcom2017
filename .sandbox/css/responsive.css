@@ -1,0 +1,84 @@
+/* // Mobile Code // */
+@media (max-width: 580px) {
+
+#header .header-content {
+  width: 100%;
+  text-align: center;
+  padding-top: 20%;
+}
+#header h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.header-content p.lead {
+  padding:0px;
+  font-size: 1.2rem;
+}
+#header h1, #header p {
+  text-shadow: 1px 1px 1px #666;
+  color: #fff;
+}
+.section-title h2 {
+  font-size: 2rem;
+}
+.h3, h3 {
+  font-size: 1.5rem;
+}
+.section-title {
+    margin-bottom: 0px;
+}
+.iconBackground, .separline:before {
+  display: none;
+}
+section#timeline .reverse {
+    flex-direction: row;
+}
+
+.timeline-element {
+    display: flex;
+}
+.align-right {
+    text-align: left;
+}
+
+
+section#timeline h3, section#timeline p, section#timeline h4, section#timeline .timeline-text-content, 
+section#timeline .reverse .time-line-date-content h3,
+section#timeline .reverse .time-line-date-content,
+section#timeline .reverse .timeline-text-content,
+section#timeline .time-line-date-content {
+  margin: 0; 
+  padding:0;
+  float: none;
+  display: block;
+  background: none;
+}
+
+section#timeline p.lead{
+  padding-bottom: 4rem;
+}
+
+
+section#timeline h3, section#timeline h4, section#timeline p, section#timeline .reverse .time-line-date-content h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+section#timeline h3 {
+  font-size: 1.3rem;
+}
+section#timeline h4 {
+  font-size: 1.1rem;
+}
+
+}
+
+/* // Tablet code // */
+@media (min-width: 581px) and (max-width: 768px)  {
+     
+}
+
+/* // Desktop Code // */
+@media (min-width: 769px)  {
+      
+}

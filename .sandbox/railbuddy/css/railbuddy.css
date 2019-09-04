@@ -1,0 +1,175 @@
+/* Header **************/
+body {
+    background-color: #292d78;
+    color: #eee;
+}
+a:link, a:visited, a:active {
+    color: #ffca68;
+}
+
+a:hover {
+    color: #fff;
+}
+  
+/* Testing ********/
+.brdr {
+    border: 1px solid red;
+}
+
+/* Reset Styles ***********************/
+h1, h2, h3 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 1.6rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+
+/* profile-info */
+.profile-info-wrap {
+    width: 200px;
+}
+.profile-info {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+}
+.profile-info li {
+    margin-bottom: 3px;
+    font-size: 0.6rem;
+}
+
+
+
+
+
+
+/* status-bar ************************/
+.status-bar-wrap {
+    background-color: #ffca68;
+}
+.status-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 5px 0;
+}
+.status-bar li {
+    font-size: 0.6rem;
+    color: black;
+    font-weight: normal;
+}
+.elapsed-time {
+    color: #dc3545;
+}
+
+
+/** breadcrumb ***********************/
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 5px;
+    border-bottom: 1px solid #171b71;
+}
+.breadcrumbs li {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    color: #eee;
+    font-size: 0.6rem;
+}
+.breadcrumbs li a {
+    color: #ffca68;
+}
+
+
+
+/* Page Navigations Section ********************/
+h1.ptitle {
+    border-bottom: 1px dotted #151965;
+    padding: 1.5em 0 5px;
+}
+.pnav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 1em;
+}
+.pnav li {
+    font-size: 0.7rem;
+}
+#rbHome a.primary-btn {
+    width: 120px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.73);
+    background-image: linear-gradient(to bottom, #ffe7a1, #ffca68);
+    color: #000;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+
+  #rbHome a.secondary-btn {
+      color: #ffca68;
+  }
+
+  /* Footer ************************************************/
+  .footer-wrap {
+      background-color: #000;
+      color: #ccc;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3em; 
+  }
+
+  .copyr {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  .copyr li {
+    align-self: center;
+      font-size: 0.7rem;
+      margin-top: 2em;
+      margin-right: 20px;
+  }
+  .copyr li:first-child a {
+      margin-right: 2em;
+  }
+
+
+/***********************/
+@media (max-width: 580px) {
+    .status-bar {
+        flex-direction: column;
+    }
+    .status-bar li {
+        margin-bottom: 0.5em;
+    }
+    .copyr {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .copyr li {
+        margin: 0 0 0 10px; 
+        padding: 5px 0 5px;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px)  {
+    
+}
+
+@media (min-width: 769px)  {
+     
+}
